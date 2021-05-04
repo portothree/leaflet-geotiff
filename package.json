@@ -1,18 +1,29 @@
 {
-	"name": "leaflet-geotiff",
-	"description": "A LeafletJS plugin for displaying geoTIFF raster data.",
-	"version": "0.2.0",
-	"license": "MIT",
-	"author": "Stuart Matthews",
-	"contributors": [
-		"Matthias Mohr"
-	],
+	"name": "@qartlabs/leaflet-geotiff",
+	"version": "1.1.1",
+	"description": "A [LeafletJS](http://www.leafletjs.com) plugin for displaying geoTIFF raster data.  Data can drawn as colored rasters or directon arrows.  The layer can be clipped using a polygon.",
 	"main": "leaflet-geotiff.js",
+	"scripts": {
+		"test": ""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/portothree/leaflet-geotiff.git"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"dependencies": {
 		"leaflet": "^1.0.0",
 		"geotiff": "^0.4.1"
 	},
 	"optionalDependencies": {
 		"plotty": "^0.2.0"
-	}
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/portothree/leaflet-geotiff/issues"
+	},
+	"homepage": "https://github.com/portothree/leaflet-geotiff#readme"
 }

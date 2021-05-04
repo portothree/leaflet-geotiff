@@ -1,5 +1,5 @@
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
-	var L = require('leaflet-geotiff');
+	var L = require('@qartlabs/leaflet-geotiff');
 }
 
 L.LeafletGeotiff.VectorArrows = L.LeafletGeotiffRenderer.extend({

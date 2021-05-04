@@ -2,9 +2,12 @@
 // https://github.com/santilland/plotty
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
-	var L = require('leaflet-geotiff');
+	var L = require('@qartlabs/leaflet-geotiff');
 	var plotty = require('plotty');
 }
+
+let topLeft;
+let size;
 
 L.LeafletGeotiff.Plotty = L.LeafletGeotiffRenderer.extend({
 
