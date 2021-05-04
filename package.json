@@ -1,6 +1,6 @@
 {
 	"name": "@qartlabs/leaflet-geotiff",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"description": "A [LeafletJS](http://www.leafletjs.com) plugin for displaying geoTIFF raster data.  Data can drawn as colored rasters or directon arrows.  The layer can be clipped using a polygon.",
 	"main": "leaflet-geotiff.js",
 	"scripts": {
