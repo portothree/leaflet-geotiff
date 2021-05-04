@@ -14,8 +14,8 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"leaflet": "^1.0.0",
-		"geotiff": "^0.4.1"
+		"geotiff": "^0.4.1",
+		"leaflet": "^1.0.0"
 	},
 	"optionalDependencies": {
 		"plotty": "^0.2.0"
